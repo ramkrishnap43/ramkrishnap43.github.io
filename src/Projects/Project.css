@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=League+Spartan&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+#projects {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#buttonnn{
+  display: flex;
+  justify-content: space-around;
+  margin-Top: 10px;
+  margin-left: -30px;
+}
+#buttonnn > a {
+  font-size: 13px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+}
+
+.container .card {
+  position: relative;
+  width: 500px;
+  height: 680px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.13),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+    5px 5px 5px rgba(0, 0, 0, 0.13), -5px -5px 5px rgba(255, 255, 255, 0.5);
+
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.container > .card > .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  /* background: white; */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  overflow: hidden;
+  
+}
+.container .card:hover .box {
+  transform: translateY(-20px);
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 40px;
+  background: linear-gradient(45deg, #14C38E, #6142c5);
+  transition: 0.9s;
+  color:white;
+}
+
+.container .card .box .content {
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.container .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  font-size: 8em;
+  color: rgba(0, 0, 0, 0.05);
+}
+
+.container .card:hover .box .content h2 {
+  color: rgba(0, 0, 0, 0.05);
+  color: white;
+}
+.container .card .box .content h3 {
+  font-size: 1.4em;
+  color: #4070f4;;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+.container .card:hover .box .content h3 {
+  z-index: 1;
+  margin-top: 10px;
+  transition: 0.5s;
+  color:white;
+}
+
+.container .card:hover .box .content h3 p{
+  color: white;
+}
+
+.container .card:hover .box .content div p {
+  color: rgb(187, 32, 32);
+}
+
+.container .card .box .content div img {
+  width: 420px;
+  height: 260px;
+  margin-top: -30px;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+.one {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  padding: 8px 20px;
+  background: #03a9f4;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+  margin-left: 60px;
+}
+.one:last-child {
+  margin-left: 40px;
+}
+.container .card:hover .box .content a {
+  background-color: #ff568f;
+  color: white;
+}
+
+#hoverwhite:hover{
+  color:white;
+}
+
+@media all and (max-width: 399px) and (min-width: 100px){
+
+  #projects {
+   
+    margin-top: -400px;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+  }
+
+  .container .card .box .content {
+   
+    text-align: center;
+   
+  }
+  .container .card .box .content h2 {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    font-size: 8em;
+    color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .container .card:hover .box .content h2 {
+    color: rgba(0, 0, 0, 0.05);
+    color: white;
+  }
+  .container .card .box .content h3 {
+    font-size: 1.4em;
+    color: #4070f4;;
+    padding-bottom: 25px;
+    margin-top: 0px;
+  }
+  .container .card:hover .box .content h3 {
+    z-index: 1;
+    /* margin-top: 10px; */
+    transition: 0.5s;
+    color:white;
+  }
+  
+  .container .card:hover .box .content h3 p{
+    color: white;
+  }
+  
+  .container .card:hover .box .content div p {
+    color: rgb(187, 32, 32);
+  }
+  
+  .container .card .box .content div img {
+    width: 220px;
+    height: 200px;
+    
+    display: block;
+    transition: 0.3s;
+    margin: 10px;
+  }
+
+  #contenttt {
+    height:500px;
+    background-color: #14C38E;
+   
+  }
+
+  #buttonnn{
+    display: block ;
+    margin-left: -30px;
+  }
+
+  .container > .card > .boxx {
+    
+    border-radius: 15px;
+    background-color: #8b9995;
+    transition: 0.5s;
+    height:600px;
+   
+    
+  }
+
+  .container .card {
+    position: relative;
+    width: 500px;
+    height: 800px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.13),
+      inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+      5px 5px 5px rgba(0, 0, 0, 0.13), -5px -5px 5px rgba(255, 255, 255, 0.5);
+  
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  .one {
+  
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+    margin-left: 5px;
+    padding: 10px;
+  }
+}
+
+
+#projects {
+    display: grid;
+    /* padding-top: 20px; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+   #buttonnn{
+    display: "flex" ;
+    justify-content: "spacebetween" ;
+    margin-Top: "10px";
+    margin-left: -50px;
+  } 
+  #buttonnn > a{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    min-width: 120px;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+  }
+  
+  .container .card {
+    position: relative;
+    width: 500px;
+    height: 680px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.13),
+      inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+      5px 5px 5px rgba(0, 0, 0, 0.13), -5px -5px 5px rgba(255, 255, 255, 0.5);
+  
+    border-radius: 15px;
+    margin: 30px;
+  }
+  
+  .container > .card > .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    /* background: white; */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    overflow: hidden;
+    
+  }
+  .container .card:hover .box {
+    transform: translateY(-20px);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 40px;
+    background: linear-gradient(45deg, #14C38E, #6142c5);
+    transition: 0.9s;
+    color:white;
+  }
+  
+  .container .card .box .content {
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .container .card .box .content h2 {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    font-size: 8em;
+    color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .container .card:hover .box .content h2 {
+    color: rgba(0, 0, 0, 0.05);
+    color: white;
+  }
+  .container .card .box .content h3 {
+    font-size: 1.4em;
+    color: #4070f4;;
+    padding-bottom: 0px;
+    margin-top: 0px;
+  }
+  .container .card:hover .box .content h3 {
+    z-index: 1;
+    margin-top: 10px;
+    transition: 0.5s;
+    color:white;
+  }
+  
+  .container .card:hover .box .content h3 p{
+    color: white;
+  }
+  
+  .container .card:hover .box .content div p {
+    color: rgb(187, 32, 32);
+  }
+  
+  .container .card .box .content div img {
+    width: 420px;
+    height: 260px;
+    margin-top: -30px;
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .one {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+    margin-left: 60px;
+  }
+  .one:last-child {
+    margin-left: 40px;
+  }
+  .container .card:hover .box .content a {
+    background-color: #ff568f;
+    color: white;
+  }
+  
+  #hoverwhite:hover{
+    color:white;
+  }
+  
+  @media all and (max-width: 399px) and (min-width: 100px){
+  
+    #projects {
+     
+      margin-top: -200px;
+      justify-content: center;
+      align-items: center;
+      min-height: 200vh;
+    }
+  
+    .container .card .box .content {
+     
+      text-align: center;
+     
+    }
+    .container .card .box .content h2 {
+      position: absolute;
+      top: -10px;
+      right: 20px;
+      font-size: 8em;
+      color: rgba(0, 0, 0, 0.05);
+    }
+    
+    .container .card:hover .box .content h2 {
+      color: rgba(0, 0, 0, 0.05);
+      color: white;
+    }
+    .container .card .box .content h3 {
+      font-size: 1.4em;
+      color: #4070f4;;
+      padding-bottom: 25px;
+      margin-top: 0px;
+    }
+    .container .card:hover .box .content h3 {
+      z-index: 1;
+      transition: 0.5s;
+      color:white;
+    }
+    
+    .container .card:hover .box .content h3 p{
+      color: white;
+    }
+    
+    .container .card:hover .box .content div p {
+      color: rgb(187, 32, 32);
+    }
+    
+    .container .card .box .content div img {
+      width: 220px;
+      height: 200px;
+      
+      display: block;
+      transition: 0.3s;
+      margin: 10px;
+    }
+  
+    #contenttt {
+      height:500px;
+      background-color: #14C38E;
+     
+    }
+  
+    #buttonnn{
+      display: block ;
+      margin-left: -30px;
+    }
+  
+    .container > .card > .boxx {
+      
+      border-radius: 15px;
+      background-color: #8b9995;
+      transition: 0.5s;
+      height:600px;
+     
+      
+    }
+  
+    .container .card {
+      position: relative;
+      width: 500px;
+      height: 800px;
+      box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.13),
+        inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+        5px 5px 5px rgba(0, 0, 0, 0.13), -5px -5px 5px rgba(255, 255, 255, 0.5);
+    
+      border-radius: 15px;
+      margin: 10px;
+    }
+  
+    .one {
+    
+      padding: 8px 20px;
+      background: #03a9f4;
+      margin-top: 5px;
+      color: white;
+      text-decoration: none;
+      font-weight: 300;
+      border-radius: 20px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+      margin-left: 5px;
+      padding: 10px;
+    }
+  }

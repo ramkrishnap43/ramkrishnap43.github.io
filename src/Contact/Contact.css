@@ -1,0 +1,123 @@
+.c {
+    height: 110vh;
+    padding-top: 5vh;
+  }
+  .c-wrapper {
+    padding: 50px;
+    display: flex;
+  }
+  
+  .c-right {
+    height: 500px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    padding: 10px;
+    background-color: #61a2e0;
+  }
+ 
+  #contacttt {
+    font-Weight:800;
+    color:black;
+    text-align: center;
+  }
+  form {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+    border: none;
+  }
+  form > h1 {
+    padding-left: 29%;
+    padding-bottom: 10px;
+    /* margin-top: 5px; */
+  }
+  input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+  
+  textarea {
+    width: 80%;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  
+  form > button {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #dbfe7a;
+    font-weight: 500;
+    width: 160px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 30%;
+    font-size: 19px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  @media all and (max-width: 1000px) {
+    .c {
+      height: 130vh;
+      padding-top: 5vh;
+    }
+    .c-wrapper {
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+    .c-right {
+      height: 500px;
+      width: 90%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      margin: auto;
+      border: 2px solid;
+      padding: 10px;
+    }
+    
+  }
+  @media all and (max-width: 610px) {
+    .c-right {
+      height: 500px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      margin: auto;
+      border: 2px solid;
+      padding: 10px;
+    }
+    .c-right>h1{
+      padding-left: 30px;
+    }
+  }
+  
+  @media all and (max-width: 399px) and (min-width: 100px){
+  
+    .c-right {
+      margin-top: 100px;
+    }
+    #contactBtn{
+      margin-left: 20px;
+      margin-top: 30px;
+      font-size: 10px;
+    }
+  
+    #contacttt {
+        font-Weight:800;
+        color:#4070f4;
+        text-Decoration:underline;
+        margin-left: -30px;
+    }
+  }
